@@ -20,6 +20,7 @@ This repo provides an oversimplified implementation of the OpenAI's CLIP model w
 + **data/**
   - model.py = contains the CLIP model with linear projection and the CLIP loss function.
 + train_clip.py = train the CLIP model and save weights.
++ clip_inference.py = perform single image inference using the pre-trained CLIP model.
 
 ## References
 + [Open_CLIP](https://github.com/mlfoundations/open_clip/tree/main/src)
