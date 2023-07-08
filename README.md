@@ -17,7 +17,7 @@ This repo provides an oversimplified implementation of the OpenAI's CLIP model w
 + **data/**
   - image_caption_data.py = a PyTorch Dataset class for MS-COCO that retuns a Image and its (bert) tokenized caption as a tensor.
   - utils.py = preprocesses image and caption for inference.
-+ **data/**
++ **model/**
   - model.py = contains the CLIP model with linear projection and the CLIP loss function.
 + train_clip.py = train the CLIP model and save weights.
 + clip_inference.py = perform single image inference using the pre-trained CLIP model.
