@@ -1,6 +1,6 @@
 # DinoV2-BERT-CLIP
 
-This repo provides an oversimplified implementation of the OpenAI's CLIP model without the bells and whistles. If you are looking for a simple starter pack to train a CLIP model and play around various architectures, you are at the right place. Some highlights of this implementation are,
+This repo provides an oversimplified implementation of the OpenAI's CLIP model without the bells and whistles. Some highlights of this implementation are,
 
 + **Training Dataset** = MS-COCO 2017
 + **Vision Encoder** = Pre-trained DinoV2 ViT-B16 model from Meta.
